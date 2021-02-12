@@ -29,7 +29,8 @@ header {
     height: 100px;
     background-color: purple;
     margin: auto;
-    padding: 10 0 10 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .gialla {
@@ -37,7 +38,7 @@ header {
     width: 80%;
     height: 500px;
     margin: auto;
-    
+    margin-bottom: 20px;
 }
 
 .azzurro {
@@ -48,7 +49,7 @@ header {
     
 }
 
-col {
+.col {
     float: left;
 }
 
@@ -56,23 +57,23 @@ col {
     background-color: cyan;
     width: 100%;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .col-left, .col-right {
     background-color: cyan;
-    margin-top: 10px;
     margin-bottom: 10px; 
     height: 430px;
     width: 20%;
-    margin-right: 20px;
-    
 }
+
 
 .col-center {
     background-color: cyan;
-    width: 60%;
+    width: 55%;
     height: 430px;
-    
+    margin-left: 26.5px;
+    margin-right: 27px;
 }
 
 footer {
